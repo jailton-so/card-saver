@@ -1,0 +1,15 @@
+// using Rest Client extension for VS CODE to run commands above
+
+get http://localhost:3000/api
+
+### get a card by id
+get http://localhost:3000/api/card/000
+
+### get all cards
+get http://localhost:3000/api/cards
+
+### create a card
+post http://localhost:3000/api/card
+
+### delete a card by ID
+delete http://localhost:3000/api/card/000
