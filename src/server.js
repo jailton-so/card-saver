@@ -6,6 +6,7 @@ const app = express()
 
 // serve the frontend (HTML)
 app.use(express.static('src/public'))
+app.use(express.json())
 
 // api routes
 app.use('/api', apiRoutes)
